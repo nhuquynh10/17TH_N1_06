@@ -16,12 +16,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-        public  int hieuhaiso(int a, int b){
-            //modify from tonghaiso to hieuhaiso
-            return a - b;
-        }
+        ///test
         public bool login(string username, string password) {
-            if (username == "admin" && password == "admin") {
+            if ( password == "admin") {
                 return true;
             }
             return false;
