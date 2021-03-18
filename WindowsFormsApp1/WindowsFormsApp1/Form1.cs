@@ -10,19 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
-            InitializeComponent();
-        }
-        ///test
-        public bool login(string username, string password) {
-            if ( password == "admin") {
-                return true;
-            }
-            return false;
-        }
+    Who has access
+PUBLIC REPOSITORY
+This repository is public and visible to anyone.
 
-    }
+Manage
 }
